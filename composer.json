@@ -1,0 +1,12 @@
+{
+    "name": "pun4drunk/office365-api-php-client",
+    "description": "The Office 365 RESTful API PHP Client Library enables you to work with Calendar, Contact and Mail that uses OAuth2 for authorization",
+    "authors": [
+        {
+            "name": "pun4drunk",
+            "email": "vlad.waxme@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
