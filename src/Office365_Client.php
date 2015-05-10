@@ -97,8 +97,7 @@ class HttpPost {
         curl_close ( $this->ch );
     }
     public function setPostData($params) {
-        // http_build_query encodes URLs, which breaks POST data
-        $this->postString = rawurldecode ( http_build_query ( $params ) );
+        $this->postString = http_build_query ( $params );
         curl_setopt ( $this->ch, CURLOPT_POST, true );
         curl_setopt ( $this->ch, CURLOPT_POSTFIELDS, $this->postString );
     }
